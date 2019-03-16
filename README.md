@@ -19,16 +19,9 @@ otwórz klasę `FellowshipAssertionTest` i uzupełnij metody testujące zgodnie 
 Wykorzystaj API biblioteki *AssertJ*.
 
 
-## Exceptions handling
+## Obsługa wyjątków
 Wykorzystaj sposoby testowania wyjątków przedstawione na wykładzie w swojej klasie testowej.
 Użyj:
 - `@Test(expected = YourException.class)`
 - `ExpectedException` 
-- asercji z biblioteki *AssertJ*: `assertThatExceptionOfType` oraz `assertThatThrownBy`
-
-
-## Junit 5
-*TODO*
-
-## Junit 5 Extensions
-*TODO*
+- asercji z biblioteki *AssertJ*: `assertThatExceptionOfType` oraz `assertThatThrownBy`.
