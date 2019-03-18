@@ -25,3 +25,13 @@ Użyj:
 - `@Test(expected = YourException.class)`
 - `ExpectedException` 
 - asercji z biblioteki *AssertJ*: `assertThatExceptionOfType` oraz `assertThatThrownBy`.
+
+## JUnit 5
+Przygotuj testy z wykorzystaniem JUnita w wersji 5 dla implementacji metody `getFizzBuzzNumber` z klasy `FizzBuzz`. 
+Użyj:
+- nowego API adnotacji
+- nowego API asercji
+- asumpcji
+- `@DisplayName`
+- `@Nested`
+- `@ParametrizedTest`
