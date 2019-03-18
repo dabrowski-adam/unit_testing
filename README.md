@@ -7,7 +7,7 @@ implementację dla metod w klasach `FizzBuzz` i/lub `Divisibility`.
 
 
 ## Parametryzowanie z `JUnitParamsRunner`
-Dostarcz testy parametryczne z uzyciem `RunWith(JUnitParamsRunner.class)` dla Twoich klas testowych.
+Dostarcz testy parametryczne z uzyciem `@RunWith(JUnitParamsRunner.class)` dla Twoich klas testowych.
 Wykorzystaj dwa przedstawione sposoby: 
 - przez adnotację
 - przez oddzielną metodę
