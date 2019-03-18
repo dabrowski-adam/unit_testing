@@ -30,8 +30,28 @@ Użyj:
 Przygotuj testy z wykorzystaniem JUnita w wersji 5 dla implementacji metody `getFizzBuzzNumber` z klasy `FizzBuzz`. 
 Użyj:
 - nowego API adnotacji
+  - `@BeforeEach` 
+  - `@AfterEach`
+  - `@BeforeAll` 
+  - `@AfterAll`
+  - `@Test` (pamiętaj, aby użyć odpowiedniej implementacji `@Test` z odpowiedniego pakietu klas)
 - nowego API asercji
+  - `@assertThrow`
+  - `@assertAll`
+  - `@assertTimeout` (wskazówka: `Thread.sleep(2000)`)
 - asumpcji
+  - `assumeTrue()`
+  - `assumeFalse()` 
+  - `assumingThat()`
 - `@DisplayName`
 - `@Nested`
 - `@ParametrizedTest`
+  - `@ValueSource`
+  - `@CsvSource`
+  - `@CsvFileSource`
+  - `@MethodSource`
+- On/Off
+  - `@Disabled`
+  - `@EnabledOnJre`
+  - `@EnabledOnOs`
+- `@Tag`
